@@ -1,0 +1,24 @@
+html {
+    box-sizing: border-box;
+}
+
+*,::after,::before {
+    box-sizing: inherit;
+}
+
+.list {
+    margin: 50px 28%;
+}
+
+.input {
+    border: 3px solid black;
+    max-width: 600px;
+    padding: 30px;
+    margin:  0 auto 20px;
+    
+}
+.button {
+    background-color: rgb(12, 137, 137);
+    color: white
+    ;
+}
