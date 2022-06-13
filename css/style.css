@@ -15,10 +15,11 @@ html {
     max-width: 600px;
     padding: 30px;
     margin:  0 auto 20px;
+    background-color: rgb(159, 159, 197);
     
 }
 .button {
     background-color: rgb(12, 137, 137);
-    color: white
-    ;
+    color: white;
+    
 }
