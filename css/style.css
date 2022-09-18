@@ -8,18 +8,55 @@ html {
 
 .list {
     margin: 50px 28%;
+padding: 15px;
 }
 
 .input {
-    border: 3px solid black;
+    border: 3px solid white;
     max-width: 600px;
     padding: 30px;
     margin:  0 auto 20px;
-    background-color: rgb(159, 159, 197);
+    background-color: white;
     
 }
 .button {
     background-color: rgb(12, 137, 137);
     color: white;
     
+}
+
+.tasks {
+    list-style-type: none;
+}
+
+.remove {
+    color: white;
+    background-color: red;
+}
+
+.toggleDone {
+    color: white;
+    background-color: green;
+
+}
+
+.task {
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+    grid-gap: 10px;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+.form {
+    display: grid;
+    grid-template-columns:  1f auto;
+    grid-gap: 20px;
+}
+
+@media(max-width:767px) {
+    .form{
+        grid-template-columns: 1fr;
+    }
 }
