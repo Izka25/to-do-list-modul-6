@@ -6,24 +6,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lista zadań</title>
     <link href="css/style.css" rel="stylesheet">
+    <link href="css/section.css" rel="stylesheet">
     <script defer src="js/script.js"></script>
     <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,400;1,700&display=swap" rel="stylesheet">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
 </head>
 <body>
+   <section class="section">
     <h1 class="list">Lista zadań</h1>
-   <div class="input">
-    <form class="js-form">
-        <h2>Dodaj nowe zadanie</h2>
-       <input class="js-newTask" placeholder="co jest do zrobienia?" autofocus>
-       <button class="button">Dodaj zadanie</button>       
-</form>
-   </div>
-
-<div class="input">
-    <h2>Lista zadań</h2>
-<ul class="js-tasks"></ul>
-</div>
+    <div class="input">
+     <form class="js-form form">
+         <h2>Dodaj nowe zadanie</h2>
+        <input class="js-newTask" placeholder="co jest do zrobienia?" autofocus>
+        <button class="button">Dodaj zadanie</button>       
+ </form>
+    </div>
+ 
+ <div class="input">
+     <h2>Lista zadań</h2>
+ <ul class="js-tasks tasks"></ul>
+ </div>
+   </section>
     
 </body>
 </html>
