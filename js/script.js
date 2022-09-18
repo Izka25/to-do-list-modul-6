@@ -38,7 +38,7 @@ removeTask(index);
 });
 
 
-const toggleDoneButtons = document.querySelectorAll(".js-done");
+const toggleDoneButtons = document.querySelectorAll(".js-toggleDone");
 
 
 toggleDoneButtons.forEach((toggleDoneButton, index) => {
@@ -46,6 +46,8 @@ toggleDoneButtons.forEach((toggleDoneButton, index) => {
        toggleTaskDone(index);
     });
 });
+
+
 }
 
 const render = () => {
@@ -53,13 +55,21 @@ let htmlString = "";
 
 for(const task of tasks) {
     htmlString += `
-    <li
-    ${task.done ? " style=\"text-decoration: line-through\"" : ""}
+    <li 
+    class="js-task task"
     >
-    <button class="js-done">✅</button>
-    <button class="js-remove">🗑</button>
-${task.content}
-    </li>
+    <button class="js-toggleDone toggleDone ">
+    ${task.done ? "✔" : ""}
+    </button>
+    
+<span class="tasks__content${ task.done ? "tasks__content--done" : ""}">
+    </span>
+    ${task.content}
+    <button class="js-remove remove">
+    🗑
+    </button>
+ </li>
+    
     `;
 }
 
