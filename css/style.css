@@ -78,9 +78,17 @@ body {
       border-bottom: 1px solid #eee;  
   }
 
+  .newTask {
+    width: 590px;
+}
+
   .button {
     background-color: #326c86;
     color: white;
-    
-    
-  }
+   /* display: grid;
+    grid-template-columns: 0 auto ;
+    }
+
+  
+    .newTask {
+width: 100px;
