@@ -6,57 +6,65 @@ html {
     box-sizing: inherit;
 }
 
-.list {
-    margin: 50px 28%;
-padding: 15px;
-}
-
-.input {
-    border: 3px solid white;
-    max-width: 600px;
-    padding: 30px;
-    margin:  0 auto 20px;
-    background-color: white;
-    
-}
-.button {
-    background-color: rgb(12, 137, 137);
-    color: white;
-    
-}
-
-.tasks {
-    list-style-type: none;
-}
-
-.remove {
-    color: white;
-    background-color: red;
-}
-
-.toggleDone {
-    color: white;
-    background-color: green;
-
-}
-
-.task {
-    display: grid;
-    grid-template-columns: auto 1fr auto;
-    grid-gap: 10px;
-    align-items: center;
+body {
+    background: grey;
+    width: 1000px;
+    margin: 0 auto;
     padding: 10px;
-    border-bottom: 1px solid #ddd;
-}
+  }
 
-.form {
-    display: grid;
-    grid-template-columns:  1f auto;
-    grid-gap: 20px;
-}
-
-@media(max-width:767px) {
-    .form{
-        grid-template-columns: 1fr;
-    }
-}
+  .form {  
+    padding: 20px;
+    margin: 20px;
+  
+    @media(max: width 767px;){
+      .form {
+          grid-template-columns: 1fr;
+      }
+  }
+  }
+  
+  .inputList {
+      border: 2px solid white;
+    padding: 20px;
+    margin: 20px; 
+    
+  }
+  
+  .tasks {
+    list-style: none;
+    
+  }
+  
+  .remove {
+    background: red;
+  }
+  
+  .toggleDone {
+    background: green;
+  }
+  
+  .task {
+      display: flex;
+      flex-wrap: 10px;
+      flex-basis: 100px;
+      padding: 10px;
+      margin: 10px;
+      border-bottom: 1px solid #eee;
+  }
+  
+  .header {
+      border-bottom: 1px solid #eee;
+  }
+  
+  .list {
+      padding: 20px;
+  }
+  
+  .input {
+      border: 2px solid white;
+  }
+  
+  .inputForm {
+      border-bottom: 1px solid #eee;  
+  }

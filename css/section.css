@@ -1,8 +1,12 @@
 .section {
-    max-width: 900px;
-    padding: 20px;
-    margin: 0 auto;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
-   text-align: left;
-   background-color: rgb(234, 224, 224);
+    display: grid;
+    grid-template-columns: 100px, 200px;
+ justify-content: center;
+  padding: 20px auto;
+ margin: 0 ;
+ font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+  line-height: 1.5;
+  text-align: left;
+  max-width: 900px;
 }
