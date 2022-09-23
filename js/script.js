@@ -40,13 +40,11 @@ removeTask(index);
 
 const toggleDoneButtons = document.querySelectorAll(".js-toggleDone");
 
-
 toggleDoneButtons.forEach((toggleDoneButton, index) => {
     toggleDoneButton.addEventListener("click", () => {
        toggleTaskDone(index);
     });
 });
-
 
 }
 
@@ -78,8 +76,6 @@ document.querySelector(".js-tasks").innerHTML = htmlString;
 
 bindEvents();
 };
-
-
 
 const onFormSubmit = (event) => {
     event.preventDefault();
