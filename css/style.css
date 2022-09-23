@@ -16,7 +16,7 @@ body {
   .form {  
     padding: auto;
     margin: 20px;
-  width: 700px;
+    width: 700px;
     @media(max: width 767px;){
       .form {
           grid-template-columns: 1fr;
@@ -39,10 +39,16 @@ body {
   
   .remove {
     background: red;
+    width: 25px;
+    display: flex;
+    justify-content: flex-end;
   }
   
   .toggleDone {
     background: green;
+    width: 25px;
+    
+
   }
   
   .task {
@@ -85,10 +91,7 @@ body {
   .button {
     background-color: #326c86;
     color: white;
+  }
    /* display: grid;
     grid-template-columns: 0 auto ;
     }
-
-  
-    .newTask {
-width: 100px;
