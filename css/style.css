@@ -13,13 +13,14 @@ body {
     padding: 10px;
   }
 
-  .form {  
+  .form { 
     border: 2px solid white;
-      background-color: white;
-      padding: 25px;
-      margin: 20px;
+    background-color: white;
+    padding: 25px;
+    margin: 20px;
     width: 900px;
-    @media(max: width 767px;){
+     
+    @media(max: width 767px){
       .form {
           grid-template-columns: 1fr;
       }
@@ -27,7 +28,7 @@ body {
   }
   
   .inputList {
-      border: 2px solid white;
+    border: 2px solid white;
     margin: 20px; 
     background-color: white;
     padding: 25px;
@@ -51,31 +52,35 @@ body {
   }
   
   .task {
-      display: flex;
-      flex-wrap: 10px;
-      flex-basis: 100px;
-      padding: 0px;
-      margin: 10px;
-      border-bottom: 1px solid #eee;   
+    
+    display: flex;
+    flex-wrap: 10px;
+    flex-basis: 100px;
+    padding: 0px;
+    margin: 10px;
+    border-bottom: 1px solid #eee;   
   }
   
   .header {
-      border-bottom: 1px solid #eee;
+   border-bottom: 1px solid #eee;
      }
   
   .list {
-      padding: 20px;
-      font-size: 50px;
+    padding: 20px;
+    font-size: 50px;
   }
   
   
   
   .inputForm {
-      border-bottom: 1px solid #eee;  
+    border-bottom: 1px solid #eee; 
+    border: 2px solid white;
+    background-color: white; 
   }
 
   .newTask {
     width: 590px;
+   
 }
 
   .button {
