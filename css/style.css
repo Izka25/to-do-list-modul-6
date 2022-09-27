@@ -14,9 +14,11 @@ body {
   }
 
   .form {  
-    padding: auto;
-    margin: 20px;
-    width: 700px;
+    border: 2px solid white;
+      background-color: white;
+      padding: 25px;
+      margin: 20px;
+    width: 900px;
     @media(max: width 767px;){
       .form {
           grid-template-columns: 1fr;
@@ -66,12 +68,7 @@ body {
       font-size: 50px;
   }
   
-  .input {
-      border: 2px solid white;
-      background-color: white;
-      padding: 25px;
-      width: 900px; 
-  }
+  
   
   .inputForm {
       border-bottom: 1px solid #eee;  
