@@ -62,8 +62,7 @@ for(const task of tasks) {
     </button>
     
 <span class="tasks__content${ task.done ? "tasks__content--done" : ""}">
-    </span>
-    ${task.content}
+    ${task.content}</span>
     <button class="js-remove remove">
     🗑
     </button>
