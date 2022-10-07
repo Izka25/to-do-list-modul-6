@@ -17,15 +17,18 @@ body {
     border: 2px solid white;
     background-color: white;
     padding: 25px;
-    margin: 20px;
+    margin: 0px auto 10px;
     width: 900px;
-     
-    @media(max: width 767px){
+    /*display: grid;
+    grid-template-columns: 1fr auto;
+    grid-gap: 20px;*/
+  }
+    @media(max-width: 767px){
       .form {
           grid-template-columns: 1fr;
       }
   }
-  }
+  
   
   .inputList {
     border: 2px solid white;
@@ -37,6 +40,7 @@ body {
   
   .tasks {
     list-style: none;
+    margin: auto 0px auto -40px ;
     }
   
   .remove {
@@ -56,13 +60,21 @@ body {
     display: flex;
     flex-wrap: 10px;
     flex-basis: 100px;
-    padding: 0px;
-    margin: 10px;
-    border-bottom: 1px solid #eee;   
+    border-bottom: 1px solid #eee; 
+    border: 2px solid white;
+    margin: auto; 
+    background-color: white;
+    padding: 25px;
+    max-width: 900px;  
   }
   
   .header {
    border-bottom: 1px solid #eee;
+   border: 2px solid white;
+    margin: auto; 
+    background-color: white;
+    padding: 25px;
+    width: 900px;
      }
   
   .list {
@@ -76,6 +88,7 @@ body {
     border-bottom: 1px solid #eee; 
     border: 2px solid white;
     background-color: white; 
+    margin: auto;
   }
 
   .newTask {
