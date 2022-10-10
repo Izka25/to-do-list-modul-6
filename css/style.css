@@ -19,9 +19,9 @@ body {
     padding: 25px;
     margin: 0px auto 10px;
     width: 900px;
-    /*display: grid;
+    display: grid;
     grid-template-columns: 1fr auto;
-    grid-gap: 20px;*/
+    grid-gap: 20px;
   }
     @media(max-width: 767px){
       .form {
@@ -56,7 +56,6 @@ body {
   }
   
   .task {
-    
     display: flex;
     flex-wrap: 10px;
     flex-basis: 100px;
@@ -82,8 +81,6 @@ body {
     font-size: 50px;
   }
   
-  
-  
   .inputForm {
     border-bottom: 1px solid #eee; 
     border: 0px 1px solid black;
@@ -92,8 +89,7 @@ body {
   }
 
   .newTask {
-    width: 590px;
-   
+    width: 590px;   
 }
 
 .tasks__content {
@@ -103,9 +99,7 @@ body {
 }
 
 .tasks__content--done {
-  
-  
-  flex-grow: 1;
+flex-grow: 1;
   padding: 2px;
 }
   .button {
