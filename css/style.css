@@ -61,7 +61,7 @@ body {
     flex-wrap: 10px;
     flex-basis: 100px;
     border-bottom: 1px solid #eee; 
-    border: 2px solid white;
+    border: 0px 1px solid black;
     margin: auto; 
     background-color: white;
     padding: 25px;
@@ -70,7 +70,7 @@ body {
   
   .header {
    border-bottom: 1px solid #eee;
-   border: 2px solid white;
+   border: 0px 1px solid black;
     margin: auto; 
     background-color: white;
     padding: 25px;
@@ -86,7 +86,7 @@ body {
   
   .inputForm {
     border-bottom: 1px solid #eee; 
-    border: 2px solid white;
+    border: 0px 1px solid black;
     background-color: white; 
     margin: auto;
   }
